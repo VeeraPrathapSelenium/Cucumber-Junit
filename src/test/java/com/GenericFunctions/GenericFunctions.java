@@ -63,7 +63,11 @@ public class GenericFunctions extends ReportGeneration{
 
 			default:
 				break;
+				
+				
 			}
+			
+			driver.manage().window().maximize();
 				
 		}catch(Exception e)
 		{
@@ -164,7 +168,11 @@ public class GenericFunctions extends ReportGeneration{
 	}
 	
 	
-
+public void closeBrowser()
+{	driver.close();
+	driver.quit();
+	
+}
 	
 	
 	
