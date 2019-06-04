@@ -15,7 +15,8 @@ public class HomePage extends GenericFunctions {
 	public WebElement lnk_JobSeeker;
 	
 	public boolean hover_RegisterLink()
-	{boolean status=true;
+	{
+		boolean status=true;
 		try
 		{
 			status=hover_Click(lnk_Register);

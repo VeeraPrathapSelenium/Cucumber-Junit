@@ -11,15 +11,11 @@ import cucumber.api.junit.Cucumber;
 		features="Features",
 		glue= {"com.TestCases"},
 		plugin= {"html:Reports"},
-		tags= {"~@Registeruser"},
+		tags= {"@test"},
 		monochrome=true
 		
 		
 		)
-
-
-
-
 
 
 public class Runner {
